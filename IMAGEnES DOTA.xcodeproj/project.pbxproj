@@ -16,6 +16,7 @@
 		B8D0A1E8276E7831009D789C /* IMAGEnES_DOTATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D0A1E7276E7831009D789C /* IMAGEnES_DOTATests.swift */; };
 		B8D0A1F2276E7831009D789C /* IMAGEnES_DOTAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D0A1F1276E7831009D789C /* IMAGEnES_DOTAUITests.swift */; };
 		B8D0A1F4276E7831009D789C /* IMAGEnES_DOTAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D0A1F3276E7831009D789C /* IMAGEnES_DOTAUITestsLaunchTests.swift */; };
+		B8D0A201276E831F009D789C /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D0A200276E831E009D789C /* CustomCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B8D0A1ED276E7831009D789C /* IMAGEnES DOTAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IMAGEnES DOTAUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8D0A1F1276E7831009D789C /* IMAGEnES_DOTAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMAGEnES_DOTAUITests.swift; sourceTree = "<group>"; };
 		B8D0A1F3276E7831009D789C /* IMAGEnES_DOTAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMAGEnES_DOTAUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B8D0A200276E831E009D789C /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				B8D0A1D2276E782B009D789C /* SceneDelegate.swift */,
 				B8D0A1D4276E782B009D789C /* ViewController.swift */,
 				B8D0A1D6276E782B009D789C /* Main.storyboard */,
+				B8D0A200276E831E009D789C /* CustomCollectionViewCell.swift */,
 				B8D0A1D9276E7831009D789C /* Assets.xcassets */,
 				B8D0A1DB276E7831009D789C /* LaunchScreen.storyboard */,
 				B8D0A1DE276E7831009D789C /* Info.plist */,
@@ -261,6 +264,7 @@
 				B8D0A1D5276E782B009D789C /* ViewController.swift in Sources */,
 				B8D0A1D1276E782B009D789C /* AppDelegate.swift in Sources */,
 				B8D0A1D3276E782B009D789C /* SceneDelegate.swift in Sources */,
+				B8D0A201276E831F009D789C /* CustomCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,8 +441,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "IMAGEnES DOTA/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -453,6 +459,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "tecsup.IMAGEnES-DOTA";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -464,8 +471,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "IMAGEnES DOTA/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -480,6 +489,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "tecsup.IMAGEnES-DOTA";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
